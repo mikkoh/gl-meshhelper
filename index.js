@@ -29,7 +29,7 @@ module.exports = function( dataLength ) {
 			// kind of unfortunate but we'll need to run a for in loop twice
 			for( var i in newVertexData ) {
 
-				combined[ i ] = newVertexData[ i ].splice( 0, 1 );
+				combined[ i ] = newVertexData[ i ].shift();
 			}
 
 			hasData = newVertexData[ aKey ].length > 0;
