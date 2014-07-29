@@ -1,0 +1,29 @@
+{
+  "name": "gl-meshhelper",
+  "version": "0.0.0",
+  "description": "Using gl-meshhelper you can take vertex data that has duplication in the format that gl-meshhelper uses and get clean vertex data and index data",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MikkoH/gl-meshhelper.git"
+  },
+  "keywords": [
+    "gl",
+    "mesh",
+    "helper",
+    "vertex",
+    "index"
+  ],
+  "author": "Mikko Haapoja <me@mikkoh.com.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikkoH/gl-meshhelper/issues"
+  },
+  "homepage": "https://github.com/MikkoH/gl-meshhelper"
+}
